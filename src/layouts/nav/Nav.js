@@ -8,17 +8,14 @@ const Nav = () => {
     <Wrapper>
       <img className="logo" src={logo} />
       <li className="li">
-        <Link to="/products" className='link'>
-          <ul>men's</ul>
+        <Link to="/" className='link'>
+          <ul>all</ul>
         </Link>
-        <Link to="/products" className='link'>
-          <ul>women's</ul>
+        <Link to="/products/tee" className='link'>
+          <ul>tee</ul>
         </Link>
-        <Link to="/products" className='link'>
-          <ul>kid's</ul>
-        </Link>
-        <Link to="/products" className='link'>
-          <ul>accessories</ul>
+        <Link to="/products/mug" className='link'>
+          <ul>mug</ul>
         </Link>
         <Link to="/about" className='link'>
           <ul>about</ul>
